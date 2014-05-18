@@ -21,7 +21,7 @@
 # definition file).
 #
 
-#-include device/motorola/msm8210-common/BoardConfigCommon.mk
+#-include device/motorola/msm8610-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 #-include vendor/motorola/condor/BoardConfigVendor.mk
@@ -37,8 +37,8 @@ TARGET_GLOBAL_CFLAGS += -mfpu=neon-vfpv4 -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon-vfpv4 -mfloat-abi=softfp
 TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 
-TARGET_BOARD_PLATFORM := msm8210
-TARGET_BOOTLOADER_BOARD_NAME := MSM8210
+TARGET_BOARD_PLATFORM := msm8610
+TARGET_BOOTLOADER_BOARD_NAME := MSM8610
 TARGET_CPU_VARIANT := cortex-a7
 
 TARGET_USES_QCOM_BSP := true

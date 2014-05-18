@@ -18,7 +18,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# $(call inherit-product, device/motorola/msm8210-common/msm8210.mk)
+# $(call inherit-product, device/motorola/msm8610-common/msm8610.mk)
 
 LOCAL_PATH := device/motorola/condor
 
@@ -30,5 +30,5 @@ PRODUCT_LOCALES += hdpi
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
-# $(call inherit-product, device/motorola/msm8210-common/keylayout/keylayout.mk)
+# $(call inherit-product, device/motorola/msm8610-common/keylayout/keylayout.mk)
 # $(call inherit-product, vendor/motorola/condor/condor-vendor.mk)
