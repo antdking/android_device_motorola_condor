@@ -25,23 +25,8 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-# Inherit from xt1034 device
+# Inherit from condor device
 $(call inherit-product, device/motorola/condor/device_condor.mk)
-
-PRODUCT_PACKAGES += \
-    twrp.fstab \
-    fstab.qcom \
-    init.qcom.rc \
-    init.target.rc \
-    ueventd.qcom.rc
-    
-# Init scripts
-#PRODUCT_PACKAGES += \
-#    init.mmi.boot.sh \
-    init.mmi.rc \
-#    init.mmi.touch.sh \
-#    init.qcom.sh \
-#    init.qcom.ssr.sh \
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := condor

@@ -1,0 +1,3 @@
+# Etc
+etc/firmware/synaptics-s2316i-13101703-175833-condor.tdat
+etc/firmware/synaptics-s2316t-13101703-175833-condor.tdat

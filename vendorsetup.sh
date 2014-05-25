@@ -1,1 +1,2 @@
 add_lunch_combo slim_condor-eng
+add_lunch_combo cm_condor-eng
